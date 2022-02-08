@@ -2,8 +2,4 @@
 @import 'generic/_resets.css';
 @import 'settings/_defaults.css';
 @import 'settings/_colors.css';
-
-body {
-  font-family: var(--font-montserrat);
-  color: var(--red);
-}
+@import 'elements/_body.css';
