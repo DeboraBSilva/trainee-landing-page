@@ -1,0 +1,51 @@
+.input {
+  display: inline-flex;
+  min-width: 250px;
+  height: 42px;
+  padding: 0 2em;
+  border: none;
+  background-color: var(--white);
+  border-radius: var(--base-border-radius);
+  font-family: inherit;
+  font-size: 0.8em;
+  font-weight: var(--weight-500);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  border: 3px solid var(--blue-light);
+}
+
+.input:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Modifiers */
+.input--error {
+  background-color: var(--red-lighter);
+  color: var(--red);
+  cursor: default;
+  pointer-events: none;
+}
+
+.input--success {
+  background-color: var(--green-lighter);
+  color: var(--green);
+  cursor: default;
+  pointer-events: none;
+}
+
+.input--warning {
+  background-color: var(--yellow-lighter);
+  color: var(--yellow-dark);
+  cursor: default;
+  pointer-events: none;
+}
+
+.input--error:focus,
+.input--success:focus,
+.input--warning:focus {
+  border: none;
+}
