@@ -1,0 +1,26 @@
+:root {
+  /* Base */
+  --base-font-size: 16px;
+
+  /* Fonts */
+  --font-montserrat: 'Montserrat', sans-serif;
+
+  /* Weights */
+  --weight-300: 300;
+
+  /* Border Radius */
+  --base-border-radius: 4px;
+
+  /* Colors */
+  --gray: #ebe7e7;
+
+  --yellow-light: #ffe21d;
+  --yellow: #ffd21d;
+
+  --blue-light: #24afff;
+  --blue: #248bff;
+
+  --red: #f26c6c;
+
+  --green: #27b667;
+}
