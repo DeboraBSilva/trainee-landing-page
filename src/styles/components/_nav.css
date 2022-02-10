@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: var(--weight-500);
+  width: 40%;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nav_link--active {
+  text-decoration: var(--red) underline;
+}
+
+.nav__link:hover {
+  color: var(--red);
+}
