@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="styles/index.css" />
@@ -15,5 +15,26 @@
   </head>
   <body>
     <h1>Design System</h1>
+    <button class="button">Static</button>
+    <button class="button">Hovered</button>
+    <button class="button">Pressed</button>
+    <button class="button" disabled>Disabled</button>
+    <br />
+    <br />
+    <button class="button button--secondary">Static</button>
+    <button class="button button--secondary">Hovered</button>
+    <button class="button button--secondary">Pressed</button>
+    <button class="button button--secondary" disabled>Disabled</button>
+    <br />
+    <br />
+    <br />
+    <input class="input" placeholder="Static input placeholder" />
+    <input class="input" placeholder="Active input text" />
+    <input class="input" placeholder="Disabled input" disabled />
+    <br />
+    <br />
+    <input class="input input--error" value="Input error!" />
+    <input class="input input--success" value="Input success :)" />
+    <input class="input input--warning" value="This needs your attention" />
   </body>
 </html>

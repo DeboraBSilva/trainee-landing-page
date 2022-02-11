@@ -6,21 +6,38 @@
   --font-montserrat: 'Montserrat', sans-serif;
 
   /* Weights */
+  --weight-100: 100;
+  --weight-200: 200;
   --weight-300: 300;
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+  --weight-800: 800;
 
   /* Border Radius */
-  --base-border-radius: 4px;
+  --base-border-radius: 50px;
 
   /* Colors */
+  --black: #000;
+
   --gray: #ebe7e7;
 
+  --white: #fff;
+
+  --yellow-lighter: #f8efdd;
   --yellow-light: #ffe21d;
   --yellow: #ffd21d;
+  --yellow-dark: #e7b900;
 
   --blue-light: #24afff;
   --blue: #248bff;
 
+  --red-lighter: #f8e5e5;
+  --red-light: #f27c6c;
   --red: #f26c6c;
 
+  --green-lighter: #dbf1e3;
+  --green-light: #27d667;
   --green: #27b667;
 }
