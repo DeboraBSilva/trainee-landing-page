@@ -7,7 +7,7 @@
   height: 42px;
   padding: 0 2em;
   background-color: transparent;
-  border: 3px solid var(--yellow-light);
+  border: 3px solid var(--red-light);
   border-radius: var(--base-border-radius);
   color: var(--black);
   font-family: inherit;
@@ -22,16 +22,16 @@
 }
 
 .button:hover {
-  background-color: var(--yellow-light);
+  background-color: var(--red-light);
 }
 
 .button:active {
-  background-color: var(--yellow);
-  border-color: var(--yellow);
+  background-color: var(--red);
+  border-color: var(--red);
 }
 
 .button:disabled {
-  background-color: var(--yellow-light);
+  background-color: var(--red-light);
   opacity: 0.4;
   cursor: not-allowed;
 }
