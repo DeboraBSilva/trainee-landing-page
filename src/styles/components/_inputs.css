@@ -3,6 +3,7 @@
   min-width: 250px;
   height: 42px;
   padding: 0 2em;
+  margin: 1em;
   border: none;
   background-color: var(--white);
   border-radius: var(--base-border-radius);
@@ -11,6 +12,7 @@
   font-weight: var(--weight-500);
   outline: none;
   transition: all 0.3s ease;
+  resize: none;
 }
 
 .input:focus {
@@ -48,4 +50,8 @@
 .input--success:focus,
 .input--warning:focus {
   border: none;
+}
+
+.input--textarea {
+  height: auto;
 }

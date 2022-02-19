@@ -24,11 +24,22 @@
         <a class="nav__link" href="#">About</a>
         <a class="nav__link" href="#">Benefits</a>
       </nav>
-      <button class="button">Apply Now</button>
+      <a href="#apply"><button class="button">Apply Now</button></a>
     </header>
-    <section class="hero">
-      <h1>TRAINEE PROGRAM 2022</h1>
-    </section>
+    <main class="main">
+      <section class="hero">
+        <h1>TRAINEE PROGRAM 2022</h1>
+      </section>
+      <section id="apply" class="form">
+        <h1 class="form__title">Apply Now</h1>
+        <form class="form__entries">
+          <input class="input" type="text" placeholder="Name" />
+          <input class="input" type="email" placeholder="Email" />
+          <textarea class="input input--textarea" placeholder="Message" rows="7"></textarea>
+          <button type="button" class="button button--secondary">Send</button>
+        </form>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
