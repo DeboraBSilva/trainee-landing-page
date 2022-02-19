@@ -14,7 +14,7 @@
     <title>Trainee Program</title>
   </head>
   <body>
-    <header class="header">
+    <header id="top" class="header">
       <img
         class="header__logo"
         src="https://d2arqaup0tn1pp.cloudfront.net/assets/logo_codeminer42-dbb1f25e4ec14c50e7a253c107339d692ee9adce3ac6137706bc166295bc59e3.svg"
@@ -35,11 +35,25 @@
         <form class="form__entries">
           <input class="input" type="text" placeholder="Name" />
           <input class="input" type="email" placeholder="Email" />
-          <textarea class="input input--textarea" placeholder="Message" rows="7"></textarea>
+          <textarea
+            class="input input--textarea"
+            placeholder="Message"
+            rows="7"
+          ></textarea>
           <button type="button" class="button button--secondary">Send</button>
         </form>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer__logo">
+      <img
+        class="footer__img"
+        src="https://d2arqaup0tn1pp.cloudfront.net/assets/logo_codeminer42-dbb1f25e4ec14c50e7a253c107339d692ee9adce3ac6137706bc166295bc59e3.svg"
+        alt="CodeMiner42"
+      />
+      <p>All Rights Reserved</p>
+    </div>
+      <a class="footer__link" href="#top">TOP</a>
+    </footer>
   </body>
 </html>
